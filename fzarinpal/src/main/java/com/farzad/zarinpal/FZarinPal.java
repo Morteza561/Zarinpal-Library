@@ -20,7 +20,7 @@ public class FZarinPal {
     private static final String VERIFICATION_PAYMENT_URL = "https://www.zarinpal.com/pg/rest/WebGate/PaymentVerification.json";
 
     private static FZarinPal       instance;
-    private static Context mContext;
+    private Context mContext;
     private PaymentRequest paymentRequest;
 
 
